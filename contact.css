@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none; 
+   
+    
+
+}
+.container{
+    background: url(./images/contact.cover.jpg);
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size:cover;
+
+     
+     
+}
+.container h1{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+        font-size: 45px;
+        font-family:Arial, Helvetica, sans-serif;
+
+
+}   
+.container p{
+    color: white; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #666666;
+
+}
+
+            /* navigation */
+   
+nav ul{ 
+    font-family: "poppins";
+    display: flex;
+    justify-content:right;
+    margin-right: 60px;
+  
+  
+  
+
+
+
+}
+nav ul li{
+    margin-top: 10px;
+   padding: 30px;
+
+
+
+}
+nav ul li a{
+    color: white;
+    font-size: 14px;
+    
+
+}
+nav ul li a:hover{
+color: grey;
+}
+.active{
+    color:#0c71c3;
+}
+              /* main */
+
+              .main{
+   
+               box-sizing: border-box;
+                font-family: 'Montserrat', sans-serif;
+                text-transform: capitalize;
+               height: 100%;
+                font-size: 15px;
+                display: grid;
+                place-items: center;
+                padding: 30px ;
+                
+                
+                
+                
+            }
+            .main h2{
+               margin: 25px 20px 25px 20px;
+               font-size: 22px;
+               color: #333333;
+              
+
+            }
+            .container-form{
+                /* height: 80vh; */
+                box-sizing: border-box;
+                background-color: #f2f2f2;
+                padding: 15px 30px 20px 30px;
+                border: 1px solid lightgrey;
+                border-radius: 5px;
+                font-size: 15px;
+             align-items: center;
+                margin:15px;
+                width: 60vw;
+               
+                
+            }
+            
+            input[type="text"],
+            input[type="number"],
+            input[type="password"],
+            input[type="email"],
+            input[type="date"],
+            select,textarea{
+                width: 100%;
+                box-sizing: border-box;
+                padding: 12px;
+                font-size: 14px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                margin: 15px;
+                
+                
+            
+            }
+            fieldset{
+                margin: 15px;
+                box-sizing: border-box;
+                background-color: #fff;
+                border-radius: 4px ;
+                padding: 12px;
+                border: 1px solid lightgrey;
+               
+            }
+           
+            span{
+                color: red;
+            }
+            .main-heading {
+                text-align: center;
+                box-sizing: border-box;
+              
+              
+            }
+            
+            input[type="submit"]{
+               background-color: #161616;
+               color: white;
+               padding: 12px 20px;
+               border: none;
+               border-radius: 5px;
+               cursor: pointer;
+               width: 10%;
+               box-sizing: border-box;
+               margin: 15px;
+              
+            
+            }
+            input[type="submit"]:hover{
+                background-color: #2f2f2f;
+            }
+            
+            
+    
+
+                     /* footer */
+
+.main-footer{
+    height: 50vh;
+    background: #222222;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 10px,10px, 10px 10px;
+    FONT-FAMILY:"Open Sans", Arial, sans-serif;
+   }
+   
+   .main-footer ul li {
+       font-weight: 400;
+      text-align: center;
+       color: white;
+       font-size: 16px;
+      line-height: 20px;
+       padding: 12px;
+    
+   }
+   .main-footer a{
+    color: white;
+  }
+   .main-footer ul li a:hover{
+       color: grey;
+   }
+   footer{
+       background:#161616;
+      
+       color: #666666;
+     
+       padding: 14px   ;
+       text-align: center;
+       font-size: 14px;
+       font-weight: 500;
+     
+       line-height: 23.8px;
+       font-family:"Open Sans", Arial, sans-serif ;
+   
+   
+   }
+
+
+      
+     
+    

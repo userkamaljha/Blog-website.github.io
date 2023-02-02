@@ -1,0 +1,210 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  text-decoration: none;
+ 
+}
+.container {
+  background: url(./images/cover.jpg);
+  height: 80vh;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  width: 650px;
+
+  margin-top: 90px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 500px;
+}
+.one {
+  color: white;
+  font-family: "poppins";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 50px;
+}
+.two {
+  color: white;
+  font-size: 14px;
+}
+
+/* navigation */
+
+nav ul {
+  font-family: "poppins";
+  display: flex;
+  justify-content: right;
+  margin-right: 60px;
+}
+nav ul li {
+  margin-top: 10px;
+  padding: 30px;
+}
+nav ul li a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: grey;
+}
+.active {
+  color: #0c71c3;
+}
+
+       /* DO EPIC SHIT!   */
+.next {
+  border-left: 6px solid #333333;
+  margin-top: 330px;
+  margin-left: 300px;
+  padding-left: 36px;
+  width:50vw;
+  font-family: "poppins";
+}
+
+.next h2{
+    font-family: 'Montserrat', sans-serif;
+                font-size: 22px;
+              color: #333333;
+}
+.next p{
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: rgb(90, 89, 89);
+}
+
+.next a{
+  color: #0c71c3;
+  text-decoration: underline;
+}
+           /* How often do you do this?   */
+.next1 {
+  border-left: 6px solid #333333;
+  /* border: 2px solid blue; */
+  margin-top: 100px;
+  margin-left: 300px;
+  padding-left: 36px;
+  width:50vw;
+  display: grid;
+  font-family: "poppins";
+}
+.next1 h2{
+    font-family: 'Montserrat', sans-serif;
+                font-size: 22px;
+                color: #333333;
+}
+.next1 p{
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: rgb(90, 89, 89);
+}
+.next1 a{
+  color: #0c71c3;
+  text-decoration: underline;
+  }
+              /* Happiness is a decision  */
+
+.next2 {
+  border-left: 6px solid #333333;
+  margin-top: 100px;
+  margin-left: 300px;
+  padding-left: 36px;
+  display: grid;
+  width:50vw;
+  font-family: "poppins";
+}
+.next2 h2{
+    font-family: 'Montserrat', sans-serif;
+                font-size: 22px;
+                color: #333333;
+}
+.next2 p{
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: rgb(90, 89, 89);
+}
+ .next2 a{
+  color: #0c71c3;
+  text-decoration: underline;
+  
+}
+
+           /* You are so boring…  */
+
+.next3 {
+  border-left: 6px solid #333333;
+  margin-top: 100px;
+  margin-left: 300px;
+  padding-left: 36px;
+  display: grid;
+  width:50vw;
+  font-family: "poppins";
+}
+.next3 h2{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 22px;
+   color: #333333;
+}
+.next3 p{
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: 400;
+    color: rgb(90, 89, 89);
+}
+.next3 a{
+  color: #0c71c3;
+text-decoration: underline;
+}
+/* footer */
+
+.main-footer {
+  height: 50vh;
+  background: #222222;
+  margin-top: 1300px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 10px, 10px, 10px 10px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.main-footer ul li {
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px;
+}
+.main-footer a{
+  color: white;
+}
+.main-footer ul li a:hover {
+  color: grey;
+}
+footer {
+  background: #161616;
+
+  color: #666666;
+
+  padding: 14px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+
+  line-height: 23.8px;
+  font-family: "Open Sans", Arial, sans-serif;
+}

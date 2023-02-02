@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    /* text-align: center; */
+  }
+  .container {
+    background: url(./images/contact.cover.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container h1 {
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-top: 150px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #666666;
+  }
+  
+/* navigation */
+
+nav ul {
+    font-family: "poppins";
+    display: flex;
+    justify-content: right;
+    margin-right: 60px;
+  }
+  nav ul li {
+    margin-top: 10px;
+    padding: 30px;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    color: grey;
+  }
+  .active {
+    color: #0c71c3;
+  }
+  /* section */
+
+section {
+    margin: 150px;
+    margin-top: 100px;
+    display: grid; 
+   
+    font-family: "Open Sans", Arial, sans-serif;      
+   
+  }
+  section h2{
+    font-size: 22px;
+    font-weight: 800;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 60px;
+    color: #333333;
+    text-align: left;
+    padding: 15px;
+    text-transform: capitalize;
+   
+
+  }
+  section p{
+    font-size: 15px;
+    padding: 15px;
+    color: #666666;
+  line-height: 23.8px;
+  font-family: "Open Sans", Arial, sans-serif;
+  }
+  section a{
+    color:#1564c4;
+  }
+
+  /* footer */
+
+.main-footer {
+  height: 50vh;
+  background: #222222;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 10px, 10px, 10px 10px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.main-footer ul li {
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px;
+}
+.main-footer ul li a:hover {
+  color: grey;
+}
+.main-footer a{
+  color: white;
+}
+footer {
+  background: #161616;
+  color: #666666;
+  padding: 14px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.8px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+  
+
+  
